@@ -58,7 +58,7 @@ Even if accessing a configuration file directly returns `403 Forbidden`, **Apach
    - Direct accessibility via browser
 3. Check whether the upload directory processes `.htaccess` rules
 4. Overwrite `.htaccess` configuration file by uploading new `.htaccess` file with own rule
-   👉 **[Click here to get the `.htaccess` with php allowed](PASTE_YOUR_LINK_HERE)**
+   👉 **[Click here to get the php allowed `.htaccess`](https://github.com/VVVI5HNU/file-upload-restriction-bypass/blob/main/htaccess.txt)**
 5. Capture the upload request using Burpsuite
 6. In Burpsuite request change filname of htaccess.txt to .htaccess
 7. Upload the file successfully
