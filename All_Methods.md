@@ -18,7 +18,7 @@ GET /example/exploit.php?command=id HTTP/1.1
 
 ---
 
-Changing Content-Type:
+## Changing Content-Type:
 ```
 .svg  = Content-Type: image/svg+xml
 .php  = Content-Type: application/x-httpd-php OR text/x-php OR text/plain OR application/octet-stream
